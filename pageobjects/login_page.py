@@ -12,7 +12,7 @@ class LoginPage(BasePage):
 
     # 登录功能
     def login(self, user, pwd):
-        self.element_import(self.loc.import_user, "输入用户名", user)
-        self.element_import(self.loc.import_pwd, "输入密码", pwd)
+        self.element_input(self.loc.import_user, "输入用户名", user)
+        self.element_input(self.loc.import_pwd, "输入密码", pwd)
         self.element_click(self.loc.login_button, "点击登录")
 

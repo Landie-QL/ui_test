@@ -57,7 +57,7 @@ class TestWorkAttend:
         cp.sure_active()
         # 输入签到码
         sleep(1)
-        cp.imput_work_number(getattr(Data, "work_number"))
+        cp.input_work_number(getattr(Data, "work_number"))
         sleep(5)
 
     def test_teacher_over_atted(self, set_driver: WebDriver):

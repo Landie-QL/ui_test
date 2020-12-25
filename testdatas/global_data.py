@@ -14,3 +14,6 @@ class_name = 'Meghan Brooks'
 students_list = [
     ("408848063@qq.com", "nmb_python")
 ]
+
+# 作业路径
+file_path = r'C:\Users\Landie\Pictures\联想锁屏壁纸\8487545.jpg'

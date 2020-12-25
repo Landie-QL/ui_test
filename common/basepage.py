@@ -4,6 +4,7 @@ import os
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.remote.webdriver import WebDriver, WebElement
+from pywinauto.keyboard import send_keys
 
 from common.handle_log import log
 from common.handle_path import screenshot_path
@@ -79,7 +80,7 @@ class BasePage:
             self.__screenshot(png_doc)
             raise
 
-    def element_import(self, loc, png_doc, *value, timeout=20, poll_frequency=0.5):
+    def element_input(self, loc, png_doc, *value, timeout=20, poll_frequency=0.5):
         log.info(f'当前动作为：{png_doc}')
         self.wait_ele_visible(loc, png_doc, timeout, poll_frequency)
         ele = self._get_element(loc, png_doc)
@@ -183,9 +184,46 @@ class BasePage:
         try:
             handles = self.driver.window_handles
             self.driver.switch_to.window(handles[win])
-            sleep(1)
+            sleep(2)
         except:
             log.exception('窗口切换失败。')
+            # 截图
+            self.__screenshot(png_doc)
+            raise
+
+    def js(self, png_doc, js, element=None):
+        """
+        js操作
+        :param png_doc:
+        :param js: js语句
+        :param element: 元素对象
+        :return:
+        """
+        log.info(f'当前动作为：{png_doc}')
+        try:
+            if element:
+                self.driver.execute_script(js, self._get_element(element, png_doc))
+            else:
+                self.driver.execute_script(js)
+        except:
+            log.exception('窗口切换失败。')
+            # 截图
+            self.__screenshot(png_doc)
+            raise
+
+    def file_upload(self, png_doc, file_path):
+        """
+        文件上传封装
+        :param file_path:
+        :return:
+        """
+        log.info(f'当前动作为：{png_doc}')
+        try:
+            sleep(2)
+            send_keys(file_path)
+            send_keys('{VK_RETURN}')
+        except:
+            log.exception('文件上传失败。')
             # 截图
             self.__screenshot(png_doc)
             raise
