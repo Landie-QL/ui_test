@@ -10,7 +10,6 @@ from testdatas import global_data as GD
 from common.handle_log import log
 
 
-
 class TestHomeWork:
 
     def test_teacher_relese_homework(self, set_driver: WebDriver):
@@ -45,7 +44,7 @@ class TestHomeWork:
         # 点击提交
         sleep(2)
         cp.submit_homework()
-        assert cp.asster_submit_homework()
+        assert cp.asster_submit_homework() == True
 
     def test_teacher_read_homework(self, set_driver: WebDriver):
         driver = set_driver
@@ -59,12 +58,28 @@ class TestHomeWork:
         cp.click_homework()
         # 点击未批改的作业
         cp.in_no_read()
+        # 点击对学生可见
+        cp.student_can_see_fraction()
         # 点击进入批阅
         cp.in_read()
         # 切换窗口
         cp.switch_to_new_windows()
         # 输入成绩
+        sleep(2)
         cp.input_fraction('100')
+        assert cp.asster_save_fraction() == True
 
-
-
+    def test_student_look_fraction(self, set_driver: WebDriver):
+        driver = set_driver
+        # 登录
+        LoginPage(driver).login(*GD.student)
+        # 选择班级并进入
+        sleep(1)
+        IndexPage(driver).enter_class_by_name(GD.class_name)
+        cp = ClassPage(driver)
+        # 点击作业
+        cp.click_homework()
+        # 点击查看成绩
+        cp.see_fraction()
+        # 断言
+        assert cp.asster_student_fraction() == True

@@ -1,6 +1,8 @@
 from pagelocators.class_page_loc import ClassPageLoc
 from common.basepage import BasePage
 from common.handle_random import random_data
+from common.handle_data import Data
+from common.handle_log import log
 
 
 class ClassPage(BasePage):
@@ -76,7 +78,8 @@ class ClassPage(BasePage):
         try:
             self.wait_ele_visible(self.loc.submit_homework_ok, "等待上传成功出现")
         except:
-            return False
+            log.exception('断言错误')
+            raise
         else:
             return True
 
@@ -86,21 +89,38 @@ class ClassPage(BasePage):
     def in_read(self):
         self.element_click(self.loc.in_read, '点击进入批阅')
 
+    def student_can_see_fraction(self):
+        self.element_click(self.loc.student_never_see_fraction, '点击成绩对学生是否可见下拉框')
+        self.element_click(self.loc.student_can_see_fraction, '点击对学生可见')
+
     def switch_to_new_windows(self):
         self.handlers_window_switch('切换进最后打开的那个窗口')
 
     def input_fraction(self, fraction):
         self.element_input(self.loc.input_fraction, '输入成绩', fraction)
+        self.element_click(self.loc.save_fraction, '保存成绩')
+        setattr(Data, 'fraction', fraction)
+
+    def see_fraction(self):
+        self.element_click(self.loc.see_fraction, '点击查看成绩')
+
+    def asster_save_fraction(self):
+        try:
+            self.wait_ele_visible(self.loc.save_ok, '断言是否成绩保存成功')
+        except:
+            log.exception('断言错误')
+            raise
+        else:
+            return True
+
+    def asster_student_fraction(self):
+        try:
+            fraction = self.get_element_text(self.loc.student_fraction, '断言成绩的文本')
+            assert fraction == getattr(Data, 'fraction')
+        except:
+            log.exception('断言错误')
+            raise
+        else:
+            return True
 
 
-
-
-
-    # def asster_work_number(self):
-    #     # 判断元素是否存在进行断言
-    #     try:
-    #         self.wait_ele_visible(self.loc.asster_work, "签到断言")
-    #     except:
-    #         return False
-    #     else:
-    #         return True

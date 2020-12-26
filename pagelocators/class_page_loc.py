@@ -60,7 +60,19 @@ class ClassPageLoc:
     submit_homework_ok = (By.XPATH, '//div[text()="作业提交成功"]')
     # 未批改的作业
     no_read = (By.XPATH, '//a[text()="未批"]')
+    # 修改对学生可见操作
+    student_never_see_fraction = (By.XPATH, '//div[@class="hs-opt fr"]/span')
+    # 改成可见
+    student_can_see_fraction = (By.XPATH, '//a[text()="对学生显示成绩"]')
     # 进入批阅
     in_read = (By.XPATH, '//a[text()="进入批阅"]')
     # 成绩输入
-    input_fraction = (By.XPATH, '//div[@class="edstate"]//input')
+    input_fraction = (By.XPATH, '//div[contains(@class,"edstate")]//input')
+    # 保存成绩
+    save_fraction = (By.XPATH, '//label[text()="成绩："]')
+    # 保存成功
+    save_ok = (By.XPATH, '//div[@id="show-tip"]/span')
+    # 查看成绩
+    see_fraction = (By.XPATH, '//a[text()="查看成绩"]')
+    # 学生成绩
+    student_fraction = (By.XPATH, '//p[@class="score fr"]/span')
