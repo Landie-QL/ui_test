@@ -1,0 +1,154 @@
+2020-12-26 13:45:38,205 ui_test INFO basepage.py [第84行] 当前动作为：输入用户名
+2020-12-26 13:45:38,206 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//input[@name="account"]') 元素的出现。
+2020-12-26 13:45:38,237 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//input[@name="account"]') 元素。
+2020-12-26 13:45:38,246 ui_test INFO basepage.py [第87行] 需要输入的元素是:<selenium.webdriver.remote.webelement.WebElement (session="2c190bf4514a2f593cf6d511a5bbaf9a", element="b00fec12-9c72-4645-a60a-07c72bd06a7b")>。
+2020-12-26 13:45:38,335 ui_test INFO basepage.py [第84行] 当前动作为：输入密码
+2020-12-26 13:45:38,336 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//input[@name="pass"]') 元素的出现。
+2020-12-26 13:45:38,365 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//input[@name="pass"]') 元素。
+2020-12-26 13:45:38,372 ui_test INFO basepage.py [第87行] 需要输入的元素是:<selenium.webdriver.remote.webelement.WebElement (session="2c190bf4514a2f593cf6d511a5bbaf9a", element="673bde0d-c6fc-4b0d-84c7-fb39bd16b948")>。
+2020-12-26 13:45:38,443 ui_test INFO basepage.py [第71行] 当前动作为：点击登录
+2020-12-26 13:45:38,444 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//div[contains(@class,"pt-login")]//a[text()="登录"]') 元素的出现。
+2020-12-26 13:45:38,467 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//div[contains(@class,"pt-login")]//a[text()="登录"]') 元素。
+2020-12-26 13:45:38,476 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="2c190bf4514a2f593cf6d511a5bbaf9a", element="e466d622-3429-4afc-94d5-3ab5ce9d7ede")>。
+2020-12-26 13:45:39,535 ui_test INFO basepage.py [第71行] 当前动作为：根据班级名字进入班级
+2020-12-26 13:45:39,535 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//a[text()="Meghan Brooks"]') 元素的出现。
+2020-12-26 13:45:39,621 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//a[text()="Meghan Brooks"]') 元素。
+2020-12-26 13:45:39,629 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="2c190bf4514a2f593cf6d511a5bbaf9a", element="c566fd6e-1642-457f-9ca0-ec2b16e0137d")>。
+2020-12-26 13:45:40,373 ui_test INFO basepage.py [第71行] 当前动作为：首页点击作业
+2020-12-26 13:45:40,373 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//div[@id="third-nav"]//a[text()="作业"]') 元素的出现。
+2020-12-26 13:45:40,397 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//div[@id="third-nav"]//a[text()="作业"]') 元素。
+2020-12-26 13:45:40,405 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="2c190bf4514a2f593cf6d511a5bbaf9a", element="a9bf23c2-5fc8-4527-a586-2ec55016bb85")>。
+2020-12-26 13:45:40,902 ui_test INFO basepage.py [第71行] 当前动作为：首页点击发布个人作业
+2020-12-26 13:45:40,902 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//a[text()="发布个人作业"]') 元素的出现。
+2020-12-26 13:45:40,926 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//a[text()="发布个人作业"]') 元素。
+2020-12-26 13:45:40,934 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="2c190bf4514a2f593cf6d511a5bbaf9a", element="e2093680-def4-4cea-b267-c8786ff62f82")>。
+2020-12-26 13:45:41,247 ui_test INFO basepage.py [第84行] 当前动作为：输入作业名称
+2020-12-26 13:45:41,247 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//input[@placeholder="作业名称"]') 元素的出现。
+2020-12-26 13:45:41,270 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//input[@placeholder="作业名称"]') 元素。
+2020-12-26 13:45:41,277 ui_test INFO basepage.py [第87行] 需要输入的元素是:<selenium.webdriver.remote.webelement.WebElement (session="2c190bf4514a2f593cf6d511a5bbaf9a", element="4664a1e5-5159-47cf-8d48-96ebb4be113b")>。
+2020-12-26 13:45:41,418 ui_test INFO basepage.py [第84行] 当前动作为：输入作业描述
+2020-12-26 13:45:41,419 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//div[@class="wangEditor-txt"]') 元素的出现。
+2020-12-26 13:45:41,452 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//div[@class="wangEditor-txt"]') 元素。
+2020-12-26 13:45:41,460 ui_test INFO basepage.py [第87行] 需要输入的元素是:<selenium.webdriver.remote.webelement.WebElement (session="2c190bf4514a2f593cf6d511a5bbaf9a", element="00c956cd-b37f-4ec6-bc89-295b54704730")>。
+2020-12-26 13:45:41,578 ui_test INFO basepage.py [第202行] 当前动作为：js修改日期
+2020-12-26 13:45:41,586 ui_test INFO basepage.py [第84行] 当前动作为：输入满分值
+2020-12-26 13:45:41,586 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//input[@class="maxScore fl"]') 元素的出现。
+2020-12-26 13:45:41,609 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//input[@class="maxScore fl"]') 元素。
+2020-12-26 13:45:41,616 ui_test INFO basepage.py [第87行] 需要输入的元素是:<selenium.webdriver.remote.webelement.WebElement (session="2c190bf4514a2f593cf6d511a5bbaf9a", element="a2d342c0-7b06-4be1-aff4-42502b49a041")>。
+2020-12-26 13:45:41,706 ui_test INFO basepage.py [第71行] 当前动作为：关闭是否查重
+2020-12-26 13:45:41,706 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//div[@id="needcheckswitch"]/div') 元素的出现。
+2020-12-26 13:45:41,730 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//div[@id="needcheckswitch"]/div') 元素。
+2020-12-26 13:45:41,739 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="2c190bf4514a2f593cf6d511a5bbaf9a", element="652b5070-16ea-45a3-8d63-4c447eee99e8")>。
+2020-12-26 13:45:41,893 ui_test INFO basepage.py [第71行] 当前动作为：确认发布个人作业
+2020-12-26 13:45:41,893 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//div[@class="opt-btn fr"]//a[text()="发布个人作业"]') 元素的出现。
+2020-12-26 13:45:41,922 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//div[@class="opt-btn fr"]//a[text()="发布个人作业"]') 元素。
+2020-12-26 13:45:41,934 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="2c190bf4514a2f593cf6d511a5bbaf9a", element="ceb77845-5cb2-4dbc-a6fd-731aba919110")>。
+2020-12-26 13:45:50,955 ui_test INFO basepage.py [第84行] 当前动作为：输入用户名
+2020-12-26 13:45:50,956 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//input[@name="account"]') 元素的出现。
+2020-12-26 13:45:50,988 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//input[@name="account"]') 元素。
+2020-12-26 13:45:50,997 ui_test INFO basepage.py [第87行] 需要输入的元素是:<selenium.webdriver.remote.webelement.WebElement (session="e96bfaecfa04f99ec6d2cbac8a5f92e9", element="2d58a58c-304c-409f-85a8-c1ea660ffb8c")>。
+2020-12-26 13:45:51,083 ui_test INFO basepage.py [第84行] 当前动作为：输入密码
+2020-12-26 13:45:51,084 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//input[@name="pass"]') 元素的出现。
+2020-12-26 13:45:51,112 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//input[@name="pass"]') 元素。
+2020-12-26 13:45:51,120 ui_test INFO basepage.py [第87行] 需要输入的元素是:<selenium.webdriver.remote.webelement.WebElement (session="e96bfaecfa04f99ec6d2cbac8a5f92e9", element="df9c9855-5a05-4528-8108-48d832754f4d")>。
+2020-12-26 13:45:51,191 ui_test INFO basepage.py [第71行] 当前动作为：点击登录
+2020-12-26 13:45:51,192 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//div[contains(@class,"pt-login")]//a[text()="登录"]') 元素的出现。
+2020-12-26 13:45:51,214 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//div[contains(@class,"pt-login")]//a[text()="登录"]') 元素。
+2020-12-26 13:45:51,222 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="e96bfaecfa04f99ec6d2cbac8a5f92e9", element="dba7b1e2-20c3-4c41-a2fb-edc0207e6261")>。
+2020-12-26 13:45:52,286 ui_test INFO basepage.py [第71行] 当前动作为：根据班级名字进入班级
+2020-12-26 13:45:52,286 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//a[text()="Meghan Brooks"]') 元素的出现。
+2020-12-26 13:45:52,361 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//a[text()="Meghan Brooks"]') 元素。
+2020-12-26 13:45:52,369 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="e96bfaecfa04f99ec6d2cbac8a5f92e9", element="67be2140-2dba-4926-a66c-1df8de62ea25")>。
+2020-12-26 13:45:52,549 ui_test INFO basepage.py [第71行] 当前动作为：首页点击作业
+2020-12-26 13:45:52,549 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//div[@id="third-nav"]//a[text()="作业"]') 元素的出现。
+2020-12-26 13:45:53,862 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//div[@id="third-nav"]//a[text()="作业"]') 元素。
+2020-12-26 13:45:53,871 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="e96bfaecfa04f99ec6d2cbac8a5f92e9", element="e8f5ad4e-420e-4469-8f9c-581b3070920c")>。
+2020-12-26 13:45:54,573 ui_test INFO basepage.py [第71行] 当前动作为：点击老师刚发布的
+2020-12-26 13:45:54,573 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//a[text()="上传作业"]') 元素的出现。
+2020-12-26 13:45:55,110 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//a[text()="上传作业"]') 元素。
+2020-12-26 13:45:55,119 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="e96bfaecfa04f99ec6d2cbac8a5f92e9", element="04fc2d70-1a68-4c82-b447-f2cf1eabbf5b")>。
+2020-12-26 13:45:55,814 ui_test INFO basepage.py [第71行] 当前动作为：点击添加作业文件
+2020-12-26 13:45:55,815 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//a[@class="sc-btn webuploader-container"]') 元素的出现。
+2020-12-26 13:45:56,359 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//a[@class="sc-btn webuploader-container"]') 元素。
+2020-12-26 13:45:56,366 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="e96bfaecfa04f99ec6d2cbac8a5f92e9", element="39305244-d03b-43f5-a83d-06a5fbf86067")>。
+2020-12-26 13:45:56,466 ui_test INFO basepage.py [第220行] 当前动作为：选择需要上传的文件
+2020-12-26 13:46:03,253 ui_test INFO basepage.py [第71行] 当前动作为：提交作业
+2020-12-26 13:46:03,253 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//a[text()="提交"]') 元素的出现。
+2020-12-26 13:46:03,286 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//a[text()="提交"]') 元素。
+2020-12-26 13:46:03,293 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="e96bfaecfa04f99ec6d2cbac8a5f92e9", element="5e54e56b-24ce-423c-bd81-c5646f6e3a0d")>。
+2020-12-26 13:46:03,360 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//div[text()="作业提交成功"]') 元素的出现。
+2020-12-26 13:46:12,716 ui_test INFO basepage.py [第84行] 当前动作为：输入用户名
+2020-12-26 13:46:12,717 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//input[@name="account"]') 元素的出现。
+2020-12-26 13:46:12,767 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//input[@name="account"]') 元素。
+2020-12-26 13:46:12,776 ui_test INFO basepage.py [第87行] 需要输入的元素是:<selenium.webdriver.remote.webelement.WebElement (session="6e522949163eba4b1acadee0ab007c42", element="7f208610-a590-4cf8-9324-ec826e406cba")>。
+2020-12-26 13:46:12,865 ui_test INFO basepage.py [第84行] 当前动作为：输入密码
+2020-12-26 13:46:12,865 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//input[@name="pass"]') 元素的出现。
+2020-12-26 13:46:12,893 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//input[@name="pass"]') 元素。
+2020-12-26 13:46:12,902 ui_test INFO basepage.py [第87行] 需要输入的元素是:<selenium.webdriver.remote.webelement.WebElement (session="6e522949163eba4b1acadee0ab007c42", element="5665d3c0-260c-4295-9bec-5d891b4e3bde")>。
+2020-12-26 13:46:12,975 ui_test INFO basepage.py [第71行] 当前动作为：点击登录
+2020-12-26 13:46:12,975 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//div[contains(@class,"pt-login")]//a[text()="登录"]') 元素的出现。
+2020-12-26 13:46:12,999 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//div[contains(@class,"pt-login")]//a[text()="登录"]') 元素。
+2020-12-26 13:46:13,013 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="6e522949163eba4b1acadee0ab007c42", element="6d0218b2-6f7c-421e-a60d-2f29b806f258")>。
+2020-12-26 13:46:14,078 ui_test INFO basepage.py [第71行] 当前动作为：根据班级名字进入班级
+2020-12-26 13:46:14,078 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//a[text()="Meghan Brooks"]') 元素的出现。
+2020-12-26 13:46:14,151 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//a[text()="Meghan Brooks"]') 元素。
+2020-12-26 13:46:14,159 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="6e522949163eba4b1acadee0ab007c42", element="ad4061b1-31b8-4ba7-89d3-aa868e06f309")>。
+2020-12-26 13:46:14,890 ui_test INFO basepage.py [第71行] 当前动作为：首页点击作业
+2020-12-26 13:46:14,890 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//div[@id="third-nav"]//a[text()="作业"]') 元素的出现。
+2020-12-26 13:46:14,914 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//div[@id="third-nav"]//a[text()="作业"]') 元素。
+2020-12-26 13:46:14,922 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="6e522949163eba4b1acadee0ab007c42", element="bad4bcc8-2ebd-453c-ad60-5a09049ab040")>。
+2020-12-26 13:46:15,441 ui_test INFO basepage.py [第71行] 当前动作为：点击未批改的作业
+2020-12-26 13:46:15,441 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//a[text()="未批"]') 元素的出现。
+2020-12-26 13:46:15,986 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//a[text()="未批"]') 元素。
+2020-12-26 13:46:15,994 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="6e522949163eba4b1acadee0ab007c42", element="b9f1c7eb-269b-4425-82a3-a40a920f7489")>。
+2020-12-26 13:46:16,403 ui_test INFO basepage.py [第71行] 当前动作为：点击成绩对学生是否可见下拉框
+2020-12-26 13:46:16,404 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//div[@class="hs-opt fr"]/span') 元素的出现。
+2020-12-26 13:46:16,955 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//div[@class="hs-opt fr"]/span') 元素。
+2020-12-26 13:46:16,963 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="6e522949163eba4b1acadee0ab007c42", element="79a70adf-4794-439a-a858-86160ec905de")>。
+2020-12-26 13:46:17,018 ui_test INFO basepage.py [第71行] 当前动作为：点击对学生可见
+2020-12-26 13:46:17,018 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//a[text()="对学生显示成绩"]') 元素的出现。
+2020-12-26 13:46:17,042 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//a[text()="对学生显示成绩"]') 元素。
+2020-12-26 13:46:17,050 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="6e522949163eba4b1acadee0ab007c42", element="deb3b419-10c3-453a-ad7d-644d4ccbc506")>。
+2020-12-26 13:46:17,112 ui_test INFO basepage.py [第71行] 当前动作为：点击进入批阅
+2020-12-26 13:46:17,113 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//a[text()="进入批阅"]') 元素的出现。
+2020-12-26 13:46:17,137 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//a[text()="进入批阅"]') 元素。
+2020-12-26 13:46:17,145 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="6e522949163eba4b1acadee0ab007c42", element="a3fa7cff-2421-43ea-a50b-5d978decea13")>。
+2020-12-26 13:46:17,237 ui_test INFO basepage.py [第183行] 当前动作为：切换进最后打开的那个窗口
+2020-12-26 13:46:21,267 ui_test INFO basepage.py [第84行] 当前动作为：输入成绩
+2020-12-26 13:46:21,267 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//div[contains(@class,"edstate")]//input') 元素的出现。
+2020-12-26 13:46:23,345 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//div[contains(@class,"edstate")]//input') 元素。
+2020-12-26 13:46:23,353 ui_test INFO basepage.py [第87行] 需要输入的元素是:<selenium.webdriver.remote.webelement.WebElement (session="6e522949163eba4b1acadee0ab007c42", element="74753c50-84e3-48b5-8e96-e22d4c4395dc")>。
+2020-12-26 13:46:23,416 ui_test INFO basepage.py [第71行] 当前动作为：保存成绩
+2020-12-26 13:46:23,417 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//label[text()="成绩："]') 元素的出现。
+2020-12-26 13:46:23,438 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//label[text()="成绩："]') 元素。
+2020-12-26 13:46:23,446 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="6e522949163eba4b1acadee0ab007c42", element="4d11d95d-efa7-4a5f-88bf-c6ec26ea6d0b")>。
+2020-12-26 13:46:23,497 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//div[@id="show-tip"]/span') 元素的出现。
+2020-12-26 13:46:32,970 ui_test INFO basepage.py [第84行] 当前动作为：输入用户名
+2020-12-26 13:46:32,971 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//input[@name="account"]') 元素的出现。
+2020-12-26 13:46:33,032 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//input[@name="account"]') 元素。
+2020-12-26 13:46:33,042 ui_test INFO basepage.py [第87行] 需要输入的元素是:<selenium.webdriver.remote.webelement.WebElement (session="0785ad51053c079ab5e886d183f66cd0", element="783c9ab2-eb63-45f0-a965-0b87d381a1c1")>。
+2020-12-26 13:46:33,127 ui_test INFO basepage.py [第84行] 当前动作为：输入密码
+2020-12-26 13:46:33,127 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//input[@name="pass"]') 元素的出现。
+2020-12-26 13:46:33,155 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//input[@name="pass"]') 元素。
+2020-12-26 13:46:33,163 ui_test INFO basepage.py [第87行] 需要输入的元素是:<selenium.webdriver.remote.webelement.WebElement (session="0785ad51053c079ab5e886d183f66cd0", element="ad69b1c9-e5d1-43d3-8697-3a0c9cad9b3f")>。
+2020-12-26 13:46:33,234 ui_test INFO basepage.py [第71行] 当前动作为：点击登录
+2020-12-26 13:46:33,234 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//div[contains(@class,"pt-login")]//a[text()="登录"]') 元素的出现。
+2020-12-26 13:46:33,257 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//div[contains(@class,"pt-login")]//a[text()="登录"]') 元素。
+2020-12-26 13:46:33,264 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="0785ad51053c079ab5e886d183f66cd0", element="37c942ce-5420-4330-979f-6bfc8e43a515")>。
+2020-12-26 13:46:34,328 ui_test INFO basepage.py [第71行] 当前动作为：根据班级名字进入班级
+2020-12-26 13:46:34,328 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//a[text()="Meghan Brooks"]') 元素的出现。
+2020-12-26 13:46:34,352 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//a[text()="Meghan Brooks"]') 元素。
+2020-12-26 13:46:34,361 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="0785ad51053c079ab5e886d183f66cd0", element="0fa8d717-74f8-4834-89f1-a6896a82bb53")>。
+2020-12-26 13:46:34,535 ui_test INFO basepage.py [第71行] 当前动作为：首页点击作业
+2020-12-26 13:46:34,535 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//div[@id="third-nav"]//a[text()="作业"]') 元素的出现。
+2020-12-26 13:46:35,726 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//div[@id="third-nav"]//a[text()="作业"]') 元素。
+2020-12-26 13:46:35,733 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="0785ad51053c079ab5e886d183f66cd0", element="70eaf3c9-5459-4e21-82d8-08616c3371fd")>。
+2020-12-26 13:46:36,449 ui_test INFO basepage.py [第71行] 当前动作为：点击查看成绩
+2020-12-26 13:46:36,449 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//a[text()="查看成绩"]') 元素的出现。
+2020-12-26 13:46:37,022 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//a[text()="查看成绩"]') 元素。
+2020-12-26 13:46:37,031 ui_test INFO basepage.py [第74行] 需要点击的元素是:<selenium.webdriver.remote.webelement.WebElement (session="0785ad51053c079ab5e886d183f66cd0", element="213bc08f-f5a7-4c13-b36a-7c4c952452e1")>。
+2020-12-26 13:46:37,415 ui_test INFO basepage.py [第137行] 当前动作为：获取成绩的文本
+2020-12-26 13:46:37,415 ui_test INFO basepage.py [第27行] 等待 ('xpath', '//p[@class="score fr"]/span') 元素的出现。
+2020-12-26 13:46:37,964 ui_test INFO basepage.py [第38行] 查找 ('xpath', '//p[@class="score fr"]/span') 元素。
+2020-12-26 13:46:37,972 ui_test INFO basepage.py [第145行] 需要获取文本的元素是:<selenium.webdriver.remote.webelement.WebElement (session="0785ad51053c079ab5e886d183f66cd0", element="b3521d95-95d1-46e2-9e23-0e8dbe8c50b9")>。
+2020-12-26 13:46:37,987 ui_test INFO basepage.py [第148行] 获取到的文本是:100
